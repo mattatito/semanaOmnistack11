@@ -1,25 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Routes from './routes'
+import './global.css'
+
+/**
+ * JSX - HTML integrado no javascript
+ * Componente - função que retorna HTML
+ * 
+ * Propriedades - parecido com atributo
+ *  do html
+ * EX: HEADER
+ */
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          React, saudade do que a gente ainda não viveu
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <Routes/>
   );
 }
 
